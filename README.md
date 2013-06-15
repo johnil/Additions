@@ -17,7 +17,7 @@ Additions
 	* `UIApplication+Additions.h`
 	* `UIDevice+Additions.h`
 	* `UIScreen+Additions.h`
-	* `UItableView+Additions.h`
+	* `UITableView+Additions.h`
 	* `UIView+Additions.h`
 	* `UIColor+Additions.h`
 
