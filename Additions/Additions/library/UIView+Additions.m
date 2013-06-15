@@ -71,4 +71,26 @@
     } completion:complet];
 }
 
+- (void)removeAllSubviews{
+    for (UIView *temp in self.subviews) {
+        [temp removeFromSuperview];
+    }
+}
+
+- (void)removeSubviewWithTag:(int)tag{
+    for (UIView *temp in self.subviews) {
+        if (temp.tag==tag) {
+            [temp removeFromSuperview];
+        }
+    }
+}
+
+- (void)removeSubviewExceptTag:(int)tag{
+    for (UIView *temp in self.subviews) {
+        if (temp.tag!=tag) {
+            [temp removeFromSuperview];
+        }
+    }
+}
+
 @end

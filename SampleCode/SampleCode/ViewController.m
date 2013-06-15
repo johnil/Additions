@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.frame = CGRectChangeHeight(self.view.frame, 10);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

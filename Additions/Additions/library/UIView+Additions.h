@@ -25,4 +25,8 @@
 - (void)fadeInOnComplet:(void(^)(BOOL))complet;
 - (void)fadeOutOnComplet:(void(^)(BOOL))complet;
 
+- (void)removeAllSubviews;
+- (void)removeSubviewWithTag:(int)tag;
+- (void)removeSubviewExceptTag:(int)tag;
+
 @end

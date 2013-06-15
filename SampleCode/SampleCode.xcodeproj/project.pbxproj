@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		C4019862176C5F5700E66244 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4019861176C5F5600E66244 /* QuartzCore.framework */; };
 		C4019866176C5F6800E66244 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4019865176C5F6800E66244 /* SystemConfiguration.framework */; };
-		C4105814176C681A00D46B0C /* AdditionsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105800176C681A00D46B0C /* AdditionsObserver.m */; };
-		C4105815176C681A00D46B0C /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105802176C681A00D46B0C /* AudioManager.m */; };
-		C4105816176C681A00D46B0C /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105804176C681A00D46B0C /* NSData+Additions.m */; };
-		C4105817176C681A00D46B0C /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105806176C681A00D46B0C /* NSString+Additions.m */; };
-		C4105818176C681A00D46B0C /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105809176C681A00D46B0C /* OpenUDID.m */; };
-		C4105819176C681A00D46B0C /* UIApplication+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C410580B176C681A00D46B0C /* UIApplication+Additions.m */; };
-		C410581A176C681A00D46B0C /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C410580D176C681A00D46B0C /* UIDevice+Additions.m */; };
-		C410581B176C681A00D46B0C /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C410580F176C681A00D46B0C /* UIScreen+Additions.m */; };
-		C410581C176C681A00D46B0C /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105811176C681A00D46B0C /* UITableView+Additions.m */; };
-		C410581D176C681A00D46B0C /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4105813176C681A00D46B0C /* UIView+Additions.m */; };
+		C4A0E50A176C7E500015611D /* AdditionsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4EE176C7E500015611D /* AdditionsObserver.m */; };
+		C4A0E50B176C7E500015611D /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F0176C7E500015611D /* AudioManager.m */; };
+		C4A0E50C176C7E500015611D /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F2176C7E500015611D /* NSArray+Additions.m */; };
+		C4A0E50D176C7E500015611D /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F4176C7E500015611D /* NSData+Additions.m */; };
+		C4A0E50E176C7E500015611D /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F6176C7E500015611D /* NSDictionary+Additions.m */; };
+		C4A0E50F176C7E500015611D /* NSMutableArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F8176C7E500015611D /* NSMutableArray+Additions.m */; };
+		C4A0E510176C7E500015611D /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FA176C7E500015611D /* NSString+Additions.m */; };
+		C4A0E511176C7E500015611D /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FD176C7E500015611D /* OpenUDID.m */; };
+		C4A0E512176C7E500015611D /* UIApplication+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FF176C7E500015611D /* UIApplication+Additions.m */; };
+		C4A0E513176C7E500015611D /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E501176C7E500015611D /* UIColor+Additions.m */; };
+		C4A0E514176C7E500015611D /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E503176C7E500015611D /* UIDevice+Additions.m */; };
+		C4A0E515176C7E500015611D /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E505176C7E500015611D /* UIScreen+Additions.m */; };
+		C4A0E516176C7E500015611D /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E507176C7E500015611D /* UITableView+Additions.m */; };
+		C4A0E517176C7E500015611D /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E509176C7E500015611D /* UIView+Additions.m */; };
 		C4F4596C176B7FC300653B16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596B176B7FC300653B16 /* UIKit.framework */; };
 		C4F4596E176B7FC300653B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596D176B7FC300653B16 /* Foundation.framework */; };
 		C4F45970176B7FC300653B16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596F176B7FC300653B16 /* CoreGraphics.framework */; };
@@ -37,27 +41,35 @@
 		C4019861176C5F5600E66244 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C4019863176C5F5C00E66244 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C4019865176C5F6800E66244 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C41057FE176C681A00D46B0C /* AdditionsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionsMacro.h; sourceTree = "<group>"; };
-		C41057FF176C681A00D46B0C /* AdditionsObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionsObserver.h; sourceTree = "<group>"; };
-		C4105800176C681A00D46B0C /* AdditionsObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionsObserver.m; sourceTree = "<group>"; };
-		C4105801176C681A00D46B0C /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
-		C4105802176C681A00D46B0C /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
-		C4105803176C681A00D46B0C /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
-		C4105804176C681A00D46B0C /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
-		C4105805176C681A00D46B0C /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
-		C4105806176C681A00D46B0C /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
-		C4105808176C681A00D46B0C /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
-		C4105809176C681A00D46B0C /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
-		C410580A176C681A00D46B0C /* UIApplication+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions.h"; sourceTree = "<group>"; };
-		C410580B176C681A00D46B0C /* UIApplication+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Additions.m"; sourceTree = "<group>"; };
-		C410580C176C681A00D46B0C /* UIDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Additions.h"; sourceTree = "<group>"; };
-		C410580D176C681A00D46B0C /* UIDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Additions.m"; sourceTree = "<group>"; };
-		C410580E176C681A00D46B0C /* UIScreen+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
-		C410580F176C681A00D46B0C /* UIScreen+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
-		C4105810176C681A00D46B0C /* UITableView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Additions.h"; sourceTree = "<group>"; };
-		C4105811176C681A00D46B0C /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
-		C4105812176C681A00D46B0C /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
-		C4105813176C681A00D46B0C /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4EC176C7E500015611D /* AdditionsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionsMacro.h; sourceTree = "<group>"; };
+		C4A0E4ED176C7E500015611D /* AdditionsObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionsObserver.h; sourceTree = "<group>"; };
+		C4A0E4EE176C7E500015611D /* AdditionsObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionsObserver.m; sourceTree = "<group>"; };
+		C4A0E4EF176C7E500015611D /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		C4A0E4F0176C7E500015611D /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		C4A0E4F1176C7E500015611D /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4F2176C7E500015611D /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4F3176C7E500015611D /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4F4176C7E500015611D /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4F5176C7E500015611D /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4F6176C7E500015611D /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4F7176C7E500015611D /* NSMutableArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4F8176C7E500015611D /* NSMutableArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4F9176C7E500015611D /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4FA176C7E500015611D /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		C4A0E4FC176C7E500015611D /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		C4A0E4FD176C7E500015611D /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		C4A0E4FE176C7E500015611D /* UIApplication+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions.h"; sourceTree = "<group>"; };
+		C4A0E4FF176C7E500015611D /* UIApplication+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Additions.m"; sourceTree = "<group>"; };
+		C4A0E500176C7E500015611D /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		C4A0E501176C7E500015611D /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		C4A0E502176C7E500015611D /* UIDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Additions.h"; sourceTree = "<group>"; };
+		C4A0E503176C7E500015611D /* UIDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Additions.m"; sourceTree = "<group>"; };
+		C4A0E504176C7E500015611D /* UIScreen+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
+		C4A0E505176C7E500015611D /* UIScreen+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
+		C4A0E506176C7E500015611D /* UITableView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Additions.h"; sourceTree = "<group>"; };
+		C4A0E507176C7E500015611D /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
+		C4A0E508176C7E500015611D /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		C4A0E509176C7E500015611D /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		C4F45968176B7FC300653B16 /* SampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F4596B176B7FC300653B16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4F4596D176B7FC300653B16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,39 +107,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C41057FD176C681A00D46B0C /* library */ = {
+		C4A0E4EB176C7E500015611D /* library */ = {
 			isa = PBXGroup;
 			children = (
-				C41057FE176C681A00D46B0C /* AdditionsMacro.h */,
-				C41057FF176C681A00D46B0C /* AdditionsObserver.h */,
-				C4105800176C681A00D46B0C /* AdditionsObserver.m */,
-				C4105801176C681A00D46B0C /* AudioManager.h */,
-				C4105802176C681A00D46B0C /* AudioManager.m */,
-				C4105803176C681A00D46B0C /* NSData+Additions.h */,
-				C4105804176C681A00D46B0C /* NSData+Additions.m */,
-				C4105805176C681A00D46B0C /* NSString+Additions.h */,
-				C4105806176C681A00D46B0C /* NSString+Additions.m */,
-				C4105807176C681A00D46B0C /* support */,
-				C410580A176C681A00D46B0C /* UIApplication+Additions.h */,
-				C410580B176C681A00D46B0C /* UIApplication+Additions.m */,
-				C410580C176C681A00D46B0C /* UIDevice+Additions.h */,
-				C410580D176C681A00D46B0C /* UIDevice+Additions.m */,
-				C410580E176C681A00D46B0C /* UIScreen+Additions.h */,
-				C410580F176C681A00D46B0C /* UIScreen+Additions.m */,
-				C4105810176C681A00D46B0C /* UITableView+Additions.h */,
-				C4105811176C681A00D46B0C /* UITableView+Additions.m */,
-				C4105812176C681A00D46B0C /* UIView+Additions.h */,
-				C4105813176C681A00D46B0C /* UIView+Additions.m */,
+				C4A0E4EC176C7E500015611D /* AdditionsMacro.h */,
+				C4A0E4ED176C7E500015611D /* AdditionsObserver.h */,
+				C4A0E4EE176C7E500015611D /* AdditionsObserver.m */,
+				C4A0E4EF176C7E500015611D /* AudioManager.h */,
+				C4A0E4F0176C7E500015611D /* AudioManager.m */,
+				C4A0E4F1176C7E500015611D /* NSArray+Additions.h */,
+				C4A0E4F2176C7E500015611D /* NSArray+Additions.m */,
+				C4A0E4F3176C7E500015611D /* NSData+Additions.h */,
+				C4A0E4F4176C7E500015611D /* NSData+Additions.m */,
+				C4A0E4F5176C7E500015611D /* NSDictionary+Additions.h */,
+				C4A0E4F6176C7E500015611D /* NSDictionary+Additions.m */,
+				C4A0E4F7176C7E500015611D /* NSMutableArray+Additions.h */,
+				C4A0E4F8176C7E500015611D /* NSMutableArray+Additions.m */,
+				C4A0E4F9176C7E500015611D /* NSString+Additions.h */,
+				C4A0E4FA176C7E500015611D /* NSString+Additions.m */,
+				C4A0E4FB176C7E500015611D /* support */,
+				C4A0E4FE176C7E500015611D /* UIApplication+Additions.h */,
+				C4A0E4FF176C7E500015611D /* UIApplication+Additions.m */,
+				C4A0E500176C7E500015611D /* UIColor+Additions.h */,
+				C4A0E501176C7E500015611D /* UIColor+Additions.m */,
+				C4A0E502176C7E500015611D /* UIDevice+Additions.h */,
+				C4A0E503176C7E500015611D /* UIDevice+Additions.m */,
+				C4A0E504176C7E500015611D /* UIScreen+Additions.h */,
+				C4A0E505176C7E500015611D /* UIScreen+Additions.m */,
+				C4A0E506176C7E500015611D /* UITableView+Additions.h */,
+				C4A0E507176C7E500015611D /* UITableView+Additions.m */,
+				C4A0E508176C7E500015611D /* UIView+Additions.h */,
+				C4A0E509176C7E500015611D /* UIView+Additions.m */,
 			);
 			name = library;
 			path = ../../Additions/Additions/library;
 			sourceTree = "<group>";
 		};
-		C4105807176C681A00D46B0C /* support */ = {
+		C4A0E4FB176C7E500015611D /* support */ = {
 			isa = PBXGroup;
 			children = (
-				C4105808176C681A00D46B0C /* OpenUDID.h */,
-				C4105809176C681A00D46B0C /* OpenUDID.m */,
+				C4A0E4FC176C7E500015611D /* OpenUDID.h */,
+				C4A0E4FD176C7E500015611D /* OpenUDID.m */,
 			);
 			path = support;
 			sourceTree = "<group>";
@@ -167,7 +187,7 @@
 		C4F45971176B7FC300653B16 /* SampleCode */ = {
 			isa = PBXGroup;
 			children = (
-				C41057FD176C681A00D46B0C /* library */,
+				C4A0E4EB176C7E500015611D /* library */,
 				C4F4597A176B7FC300653B16 /* AppDelegate.h */,
 				C4F4597B176B7FC300653B16 /* AppDelegate.m */,
 				C4F45983176B7FC300653B16 /* ViewController.h */,
@@ -256,19 +276,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4105817176C681A00D46B0C /* NSString+Additions.m in Sources */,
+				C4A0E517176C7E500015611D /* UIView+Additions.m in Sources */,
 				C4F45978176B7FC300653B16 /* main.m in Sources */,
-				C4105814176C681A00D46B0C /* AdditionsObserver.m in Sources */,
-				C410581A176C681A00D46B0C /* UIDevice+Additions.m in Sources */,
+				C4A0E50A176C7E500015611D /* AdditionsObserver.m in Sources */,
+				C4A0E511176C7E500015611D /* OpenUDID.m in Sources */,
 				C4F4597C176B7FC300653B16 /* AppDelegate.m in Sources */,
-				C4105815176C681A00D46B0C /* AudioManager.m in Sources */,
-				C4105819176C681A00D46B0C /* UIApplication+Additions.m in Sources */,
-				C4105818176C681A00D46B0C /* OpenUDID.m in Sources */,
-				C410581B176C681A00D46B0C /* UIScreen+Additions.m in Sources */,
-				C410581C176C681A00D46B0C /* UITableView+Additions.m in Sources */,
-				C4105816176C681A00D46B0C /* NSData+Additions.m in Sources */,
+				C4A0E510176C7E500015611D /* NSString+Additions.m in Sources */,
+				C4A0E50D176C7E500015611D /* NSData+Additions.m in Sources */,
+				C4A0E50E176C7E500015611D /* NSDictionary+Additions.m in Sources */,
+				C4A0E50B176C7E500015611D /* AudioManager.m in Sources */,
+				C4A0E512176C7E500015611D /* UIApplication+Additions.m in Sources */,
+				C4A0E50C176C7E500015611D /* NSArray+Additions.m in Sources */,
 				C4F45985176B7FC300653B16 /* ViewController.m in Sources */,
-				C410581D176C681A00D46B0C /* UIView+Additions.m in Sources */,
+				C4A0E50F176C7E500015611D /* NSMutableArray+Additions.m in Sources */,
+				C4A0E513176C7E500015611D /* UIColor+Additions.m in Sources */,
+				C4A0E516176C7E500015611D /* UITableView+Additions.m in Sources */,
+				C4A0E515176C7E500015611D /* UIScreen+Additions.m in Sources */,
+				C4A0E514176C7E500015611D /* UIDevice+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

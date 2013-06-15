@@ -17,6 +17,10 @@
 		C41057FA176C680E00D46B0C /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057EE176C680E00D46B0C /* UIScreen+Additions.m */; };
 		C41057FB176C680E00D46B0C /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057F0176C680E00D46B0C /* UITableView+Additions.m */; };
 		C41057FC176C680E00D46B0C /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057F2176C680E00D46B0C /* UIView+Additions.m */; };
+		C4A525C9176C744200CB40A9 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525C8176C743E00CB40A9 /* UIColor+Additions.m */; };
+		C4A525D1176C750F00CB40A9 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525CE176C74D200CB40A9 /* NSArray+Additions.m */; };
+		C4A525D2176C753600CB40A9 /* NSMutableArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525D0176C750000CB40A9 /* NSMutableArray+Additions.m */; };
+		C4A525D5176C762300CB40A9 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525D4176C761E00CB40A9 /* NSDictionary+Additions.m */; };
 		C4F459A9176B815400653B16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F459A8176B815400653B16 /* UIKit.framework */; };
 		C4F459AB176B815400653B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F459AA176B815400653B16 /* Foundation.framework */; };
 		C4F459AD176B815400653B16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F459AC176B815400653B16 /* CoreGraphics.framework */; };
@@ -50,6 +54,14 @@
 		C41057F0176C680E00D46B0C /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
 		C41057F1176C680E00D46B0C /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		C41057F2176C680E00D46B0C /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C4A525C7176C743E00CB40A9 /* UIColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		C4A525C8176C743E00CB40A9 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		C4A525CD176C74D200CB40A9 /* NSArray+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		C4A525CE176C74D200CB40A9 /* NSArray+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		C4A525CF176C750000CB40A9 /* NSMutableArray+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Additions.h"; sourceTree = "<group>"; };
+		C4A525D0176C750000CB40A9 /* NSMutableArray+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Additions.m"; sourceTree = "<group>"; };
+		C4A525D3176C761E00CB40A9 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		C4A525D4176C761E00CB40A9 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
 		C4F459A5176B815400653B16 /* Additions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F459A8176B815400653B16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4F459AA176B815400653B16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +97,7 @@
 		C41057DC176C680E00D46B0C /* library */ = {
 			isa = PBXGroup;
 			children = (
+				C41057E6176C680E00D46B0C /* support */,
 				C41057DD176C680E00D46B0C /* AdditionsMacro.h */,
 				C41057DE176C680E00D46B0C /* AdditionsObserver.h */,
 				C41057DF176C680E00D46B0C /* AdditionsObserver.m */,
@@ -94,7 +107,6 @@
 				C41057E3176C680E00D46B0C /* NSData+Additions.m */,
 				C41057E4176C680E00D46B0C /* NSString+Additions.h */,
 				C41057E5176C680E00D46B0C /* NSString+Additions.m */,
-				C41057E6176C680E00D46B0C /* support */,
 				C41057E9176C680E00D46B0C /* UIApplication+Additions.h */,
 				C41057EA176C680E00D46B0C /* UIApplication+Additions.m */,
 				C41057EB176C680E00D46B0C /* UIDevice+Additions.h */,
@@ -105,6 +117,14 @@
 				C41057F0176C680E00D46B0C /* UITableView+Additions.m */,
 				C41057F1176C680E00D46B0C /* UIView+Additions.h */,
 				C41057F2176C680E00D46B0C /* UIView+Additions.m */,
+				C4A525C7176C743E00CB40A9 /* UIColor+Additions.h */,
+				C4A525C8176C743E00CB40A9 /* UIColor+Additions.m */,
+				C4A525CD176C74D200CB40A9 /* NSArray+Additions.h */,
+				C4A525CE176C74D200CB40A9 /* NSArray+Additions.m */,
+				C4A525CF176C750000CB40A9 /* NSMutableArray+Additions.h */,
+				C4A525D0176C750000CB40A9 /* NSMutableArray+Additions.m */,
+				C4A525D3176C761E00CB40A9 /* NSDictionary+Additions.h */,
+				C4A525D4176C761E00CB40A9 /* NSDictionary+Additions.m */,
 			);
 			path = library;
 			sourceTree = "<group>";
@@ -234,14 +254,18 @@
 				C41057F4176C680E00D46B0C /* AudioManager.m in Sources */,
 				C41057F8176C680E00D46B0C /* UIApplication+Additions.m in Sources */,
 				C4F459B5176B815400653B16 /* main.m in Sources */,
+				C4A525D5176C762300CB40A9 /* NSDictionary+Additions.m in Sources */,
 				C41057F5176C680E00D46B0C /* NSData+Additions.m in Sources */,
 				C41057FA176C680E00D46B0C /* UIScreen+Additions.m in Sources */,
+				C4A525C9176C744200CB40A9 /* UIColor+Additions.m in Sources */,
 				C41057FB176C680E00D46B0C /* UITableView+Additions.m in Sources */,
 				C41057F7176C680E00D46B0C /* OpenUDID.m in Sources */,
 				C41057F6176C680E00D46B0C /* NSString+Additions.m in Sources */,
 				C41057F3176C680E00D46B0C /* AdditionsObserver.m in Sources */,
 				C41057F9176C680E00D46B0C /* UIDevice+Additions.m in Sources */,
 				C41057FC176C680E00D46B0C /* UIView+Additions.m in Sources */,
+				C4A525D1176C750F00CB40A9 /* NSArray+Additions.m in Sources */,
+				C4A525D2176C753600CB40A9 /* NSMutableArray+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
