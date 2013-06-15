@@ -3,7 +3,7 @@ Additions
 
 便捷iOS开发的各种类库
 
-在`*-Prefix.pch`中引`入AdditionsMacro.h`即可
+在`*-Prefix.pch`中引入`AdditionsMacro.h`即可
 
 #API列表
 * 扩展功能列表:
