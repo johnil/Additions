@@ -17,6 +17,7 @@
 		C41057FA176C680E00D46B0C /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057EE176C680E00D46B0C /* UIScreen+Additions.m */; };
 		C41057FB176C680E00D46B0C /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057F0176C680E00D46B0C /* UITableView+Additions.m */; };
 		C41057FC176C680E00D46B0C /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C41057F2176C680E00D46B0C /* UIView+Additions.m */; };
+		C4A0E51A176C7F830015611D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E519176C7F830015611D /* AppDelegate.m */; };
 		C4A525C9176C744200CB40A9 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525C8176C743E00CB40A9 /* UIColor+Additions.m */; };
 		C4A525D1176C750F00CB40A9 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525CE176C74D200CB40A9 /* NSArray+Additions.m */; };
 		C4A525D2176C753600CB40A9 /* NSMutableArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A525D0176C750000CB40A9 /* NSMutableArray+Additions.m */; };
@@ -54,6 +55,8 @@
 		C41057F0176C680E00D46B0C /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
 		C41057F1176C680E00D46B0C /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		C41057F2176C680E00D46B0C /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C4A0E518176C7F830015611D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4A0E519176C7F830015611D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C4A525C7176C743E00CB40A9 /* UIColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
 		C4A525C8176C743E00CB40A9 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
 		C4A525CD176C74D200CB40A9 /* NSArray+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 		C4F459AE176B815400653B16 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				C4A0E518176C7F830015611D /* AppDelegate.h */,
+				C4A0E519176C7F830015611D /* AppDelegate.m */,
 				C41057DC176C680E00D46B0C /* library */,
 				C4F459AF176B815400653B16 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 				C41057F8176C680E00D46B0C /* UIApplication+Additions.m in Sources */,
 				C4F459B5176B815400653B16 /* main.m in Sources */,
 				C4A525D5176C762300CB40A9 /* NSDictionary+Additions.m in Sources */,
+				C4A0E51A176C7F830015611D /* AppDelegate.m in Sources */,
 				C41057F5176C680E00D46B0C /* NSData+Additions.m in Sources */,
 				C41057FA176C680E00D46B0C /* UIScreen+Additions.m in Sources */,
 				C4A525C9176C744200CB40A9 /* UIColor+Additions.m in Sources */,
