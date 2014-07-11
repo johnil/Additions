@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <Delegate>
 
 @end

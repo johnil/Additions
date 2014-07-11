@@ -59,15 +59,15 @@
 }
 
 - (void)fadeInOnComplet:(void(^)(BOOL finished))complet{
+    self.alpha = 0;
     [UIView animateWithDuration:.3 animations:^{
-        self.alpha = 0;
+        self.alpha = 1;
     } completion:complet];
 }
 
 - (void)fadeOutOnComplet:(void(^)(BOOL finished))complet{
-    self.alpha = 0;
     [UIView animateWithDuration:.3 animations:^{
-        self.alpha = 1;
+        self.alpha = 0;
     } completion:complet];
 }
 

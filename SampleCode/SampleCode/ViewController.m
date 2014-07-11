@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-
 @interface ViewController ()
 
 @end
@@ -18,7 +17,23 @@
 {
     [super viewDidLoad];
     self.view.frame = CGRectChangeHeight(self.view.frame, 10);
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    TestDelegate *t = [[TestDelegate alloc] initWithDelegate:self];
+    
+}
+
+- (float)test1{
+    NSLog(@"return test1 value 1");
+    return 1;
+}
+
+- (void)test{
+    NSLog(@"call test");
+}
+
+- (id)test2:(float)test2{
+    NSLog(@"plus test2 with value 1");
+    return @(test2+1);
 }
 
 - (void)didReceiveMemoryWarning

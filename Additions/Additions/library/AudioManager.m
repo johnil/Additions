@@ -242,7 +242,7 @@ static AudioManager *sSharedInstance;
 }
 
 - (BOOL)playing{
-    return player.playbackState == MPMoviePlaybackStatePlaying;
+    return (player.playbackState!=MPMoviePlaybackStatePaused && player.playbackState!=MPMoviePlaybackStateStopped && player.playbackState!=MPMoviePlaybackStateInterrupted);
 }
 
 @end

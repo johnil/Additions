@@ -16,13 +16,14 @@
 		C4A0E50E176C7E500015611D /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F6176C7E500015611D /* NSDictionary+Additions.m */; };
 		C4A0E50F176C7E500015611D /* NSMutableArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4F8176C7E500015611D /* NSMutableArray+Additions.m */; };
 		C4A0E510176C7E500015611D /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FA176C7E500015611D /* NSString+Additions.m */; };
-		C4A0E511176C7E500015611D /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FD176C7E500015611D /* OpenUDID.m */; };
+		C4A0E511176C7E500015611D /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FD176C7E500015611D /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C4A0E512176C7E500015611D /* UIApplication+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E4FF176C7E500015611D /* UIApplication+Additions.m */; };
 		C4A0E513176C7E500015611D /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E501176C7E500015611D /* UIColor+Additions.m */; };
 		C4A0E514176C7E500015611D /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E503176C7E500015611D /* UIDevice+Additions.m */; };
 		C4A0E515176C7E500015611D /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E505176C7E500015611D /* UIScreen+Additions.m */; };
 		C4A0E516176C7E500015611D /* UITableView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E507176C7E500015611D /* UITableView+Additions.m */; };
 		C4A0E517176C7E500015611D /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E509176C7E500015611D /* UIView+Additions.m */; };
+		C4A0E51D176CC1EE0015611D /* TestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A0E51C176CC1700015611D /* TestDelegate.m */; };
 		C4F4596C176B7FC300653B16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596B176B7FC300653B16 /* UIKit.framework */; };
 		C4F4596E176B7FC300653B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596D176B7FC300653B16 /* Foundation.framework */; };
 		C4F45970176B7FC300653B16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F4596F176B7FC300653B16 /* CoreGraphics.framework */; };
@@ -70,6 +71,8 @@
 		C4A0E507176C7E500015611D /* UITableView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
 		C4A0E508176C7E500015611D /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		C4A0E509176C7E500015611D /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C4A0E51B176CC1700015611D /* TestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDelegate.h; sourceTree = "<group>"; };
+		C4A0E51C176CC1700015611D /* TestDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDelegate.m; sourceTree = "<group>"; };
 		C4F45968176B7FC300653B16 /* SampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F4596B176B7FC300653B16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4F4596D176B7FC300653B16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -192,6 +195,8 @@
 				C4F4597B176B7FC300653B16 /* AppDelegate.m */,
 				C4F45983176B7FC300653B16 /* ViewController.h */,
 				C4F45984176B7FC300653B16 /* ViewController.m */,
+				C4A0E51B176CC1700015611D /* TestDelegate.h */,
+				C4A0E51C176CC1700015611D /* TestDelegate.m */,
 				C4F45972176B7FC300653B16 /* Supporting Files */,
 			);
 			path = SampleCode;
@@ -282,6 +287,7 @@
 				C4A0E511176C7E500015611D /* OpenUDID.m in Sources */,
 				C4F4597C176B7FC300653B16 /* AppDelegate.m in Sources */,
 				C4A0E510176C7E500015611D /* NSString+Additions.m in Sources */,
+				C4A0E51D176CC1EE0015611D /* TestDelegate.m in Sources */,
 				C4A0E50D176C7E500015611D /* NSData+Additions.m in Sources */,
 				C4A0E50E176C7E500015611D /* NSDictionary+Additions.m in Sources */,
 				C4A0E50B176C7E500015611D /* AudioManager.m in Sources */,
